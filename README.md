@@ -1,7 +1,7 @@
 ```markdown
 # 🏠 SmartHome IoT
 
-**SmartHome IoT** là một hệ thống nhà thông minh cho phép người dùng điều khiển, giám sát và tự động hóa các thiết bị điện trong gia đình thông qua ứng dụng **Mobile Flutter** và **Web Admin ReactJS**, kết nối với **Backend API FastAPI**. Hệ thống hỗ trợ MQTT, JWT, lịch trình và quản lý người dùng.
+SmartHome IoT là một hệ thống nhà thông minh cho phép người dùng điều khiển, giám sát và tự động hóa các thiết bị điện trong gia đình thông qua ứng dụng **Mobile Flutter** và **Web Admin ReactJS**, kết nối với Backend API FastAPI. Hệ thống hỗ trợ MQTT, JWT, lịch trình và quản lý người dùng.
 
 
 ## 🚀 Tính năng chính
@@ -14,7 +14,7 @@
 - ⚙️ Tích hợp MQTT để giao tiếp với thiết bị IoT
 
 
-## 🧱 Cấu trúc thư mục chính
+ 🧱 Cấu trúc thư mục chính
 
 ```bash
 smarthome/    
@@ -26,7 +26,7 @@ smarthome/
 ```
 
 
-## ⚙️ Công nghệ sử dụng
+⚙️ Công nghệ sử dụng
 
 | Thành phần       | Công nghệ                          |
 |------------------|-----------------------------------|
@@ -39,16 +39,15 @@ smarthome/
 | ☁️ Deploy         | Railway (multi-service)           |
 
 
-## 🚀 Hướng dẫn chạy local
+ 🚀 Hướng dẫn chạy local
 
-1. **Clone source code**
+1. Clone source code
    ```bash
    git clone https://github.com/your-username/smarthome.git
    cd smarthome
    ```
 
 2. **Chạy backend FastAPI**
-   ```bash
    cd server
    python -m venv venv
    source venv/bin/activate      # Windows: .\venv\Scripts\activate
