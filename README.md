@@ -1,10 +1,10 @@
-```markdown
-# 🏠 SmartHome IoT
+
+🏠 SmartHome IoT
 
 SmartHome IoT là một hệ thống nhà thông minh cho phép người dùng điều khiển, giám sát và tự động hóa các thiết bị điện trong gia đình thông qua ứng dụng **Mobile Flutter** và **Web Admin ReactJS**, kết nối với Backend API FastAPI. Hệ thống hỗ trợ MQTT, JWT, lịch trình và quản lý người dùng.
 
 
-## 🚀 Tính năng chính
+🚀 Tính năng chính
 
 - 📱 Điều khiển thiết bị từ xa (bật/tắt, hẹn giờ,...)
 - 🌡️ Theo dõi cảm biến nhiệt độ, độ ẩm, chuyển động
@@ -16,7 +16,7 @@ SmartHome IoT là một hệ thống nhà thông minh cho phép người dùng �
 
  🧱 Cấu trúc thư mục chính
 
-```bash
+
 smarthome/    
 ├── client/                # giao diện người dùng
 ├── server/                # Server backend FastAPI
