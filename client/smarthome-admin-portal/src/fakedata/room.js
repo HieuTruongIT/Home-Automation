@@ -1,0 +1,66 @@
+export const rooms = [
+  {
+    _id: "room001",
+    name: "Living Room",
+    description: "First floor living room",
+    createdAt: "2025-07-30T08:00:00Z",
+    updatedAt: "2025-08-09T08:00:00Z",
+  },
+  {
+    _id: "room002",
+    name: "Bedroom",
+    description: "Master bedroom with balcony",
+    createdAt: "2025-07-31T08:00:00Z",
+    updatedAt: "2025-08-10T08:00:00Z",
+  },
+  {
+    _id: "room003",
+    name: "Kitchen",
+    description: "Modern kitchen with dining area",
+    createdAt: "2025-08-01T08:00:00Z",
+    updatedAt: "2025-08-11T08:00:00Z",
+  },
+  {
+    _id: "room004",
+    name: "BathRoom",
+    description: "Guest room with double bed",
+    createdAt: "2025-08-02T08:00:00Z",
+    updatedAt: "2025-08-12T08:00:00Z",
+  },
+  {
+    _id: "room005",
+    name: "Toilet",
+    description: "Small office space",
+    createdAt: "2025-08-03T08:00:00Z",
+    updatedAt: "2025-08-13T08:00:00Z",
+  },
+    {
+    _id: "room006",
+    name: "Garden",
+    description: "Storage room",
+    createdAt: "2025-08-04T08:00:00Z",
+    updatedAt: "2025-08-14T08:00:00Z",
+  },
+  {
+    _id: "room007",
+    name: "Drying Yard",
+    description: "Kids playroom",
+    createdAt: "2025-08-05T08:00:00Z",
+    updatedAt: "2025-08-15T08:00:00Z",
+  },
+  {
+    _id: "room008",
+    name: "Garage",
+    description: "Gym room",
+    createdAt: "2025-08-06T08:00:00Z",
+    updatedAt: "2025-08-16T08:00:00Z",
+  },
+  {
+    _id: "room009",
+    name: "Shed",
+    description: "Library",
+    createdAt: "2025-08-07T08:00:00Z",
+    updatedAt: "2025-08-17T08:00:00Z",
+  },
+];
+export default rooms;
