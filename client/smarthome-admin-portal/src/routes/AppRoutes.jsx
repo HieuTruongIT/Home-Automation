@@ -3,7 +3,7 @@ import {
   AccountCircle ,
   Light ,
 } from "@mui/icons-material";
-import { Dashboard, Devices, Rooms } from "@/pages";
+import { Dashboard, Devices, Rooms , Login} from "@/pages";
 import {AddDeviceForm } from "@/views/devices";
 const icon = {
   className: "w-5 h-5 text-inherit",
@@ -40,6 +40,18 @@ export const routes = [
     ],
     
   },
+  {
+      layout: "auth",
+      pages: [
+        {
+          name: "sign in",
+          path: "/sign-in",
+          element: <Login />,
+          hidden: true,
+        },
+  
+      ],
+    },
   
 
 ];
